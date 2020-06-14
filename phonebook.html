@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phone-Book</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+<h1>Phone-Book</h1>
+<h3>Create new contact</h3>
+
+<form id="create-contact">
+    <label for="first-name">Name:</label>
+    <input type="test" id="first-name" placeholder="Enter first name...">
+
+    <label for="first-name">PhoneNumber</label>
+    <input type="number" id="firstName">
+
+    <label for="first-name">Email</label>
+    <input type="test" id="email">
+
+    <input type="Submit">
+</form>
+<table id="people-table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Number</th>
+        <th>Email</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>Andreea</td>
+        <td>0754268545</td>
+        <td>
+            <input type="test" class="email" data-id=1>
+        </td>
+        <td>
+            <a href="#" class="remove-people" data-id=1>
+                <i class="fa fa-trash"></i></a>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>Cosmin</td>
+        <td>0746289632</td>
+        <td>
+            <input type="test" class="email" data-id=2>
+        </td>
+        <td>
+            <a href="#" class="remove-people" data-id=2>
+                <i class="fa fa-trash"></i></a>
+        </td>
+    </tr>
+
+
+    </tbody>
+
+</table>
+
+<script src = "js/lib/jquery-2.1.3.js"></script>
+<script src = "js/people.js"></script>
+
+</body>
+</html>
